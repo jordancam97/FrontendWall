@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/style.css">    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  
+
+  </head>
+  <body class="general">
+    <!--Titulo-->
+    <div>
+      <center><img class="man" src="images/condor.png"/></center>
+      <div class="titl">
+        <center>
+          <h4>WALLET</h4>
+          <h3>Balance</h3>
+          
+        </center>    
+      </div>
+      <!--Condor-->
+      <table class="tablesl" style="margin-top:65px; background-color: #9b358d;">
+        <tr>
+          <td class="tlogo" align="right"><img class="circularimg" src="images/condor128.png"/></td>
+          <td class="tdesc">
+            <h4>CONDOR</h4>
+          </td>
+          <td class="tnum">
+            <input type="number" class="balance" value="1.000" readonly>
+            <h3>CNDR</h3>
+          </td>
+        </tr>
+      </table>
+      <!--solana-->
+      <table class="tablesl">
+        <tr>
+          <td class="tlogo" align="right"><img class="circularimg" src="images/redes/solana.png"/></td>
+          <td class="tdesc">
+            <h4>SOLANA</h4>
+          </td>
+          <td class="tnum">
+            <input type="number" class="balance" value="0" readonly style="background-color: #962d88;">
+            <h3>SOL</h3>
+          </td>
+        </tr>
+      </table>
+      <!--btn recibir y enviar-->
+      <div class="btnRE">
+        <div class="rec">
+          <form method="post" action="recibir.html">
+            <button type="submit">RECIBIR</button>
+          </form>
+        </div>
+        <div class="env">
+          <form method="post" action="enviar.html">
+            <button type="submit">ENVIAR</button>
+          </form>
+        </div>
+      </div>
+
+
+
+      <div><div class="separador2"></div></div>
+
+
+
+      <!--menu inferior-->
+      <div>
+        <table class="menuinferior" width="344px">
+          <tr>
+              <td class="m1" align="center">
+                <a href="inicio.html"><img src="images/cartera.png"/></a>
+              </td>
+              <td class="m2" align="center">
+                <a href="#"><img src="images/menu.png"/></a>
+              </td>
+              <td class="m3" align="center">
+                <a href="intercambio.html"><img src="images/inter.png"/></a>
+              </td>
+              <td class="m4" align="center">
+                <a href="ajustes.html"><img src="images/confi.png"/></a>
+              </td>
+          </tr>
+        <table>
+      </div>
+
+
+
+    </div>
+    <script type="text/javascript" src="assets/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/jquery-3.5.1.slim.min.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+    <script type="text/javascript" src="assets/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

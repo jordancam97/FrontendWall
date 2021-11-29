@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/style.css">    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  
+
+  </head>
+  <body class="general">
+    <!--Titulo-->
+    <div>
+      <div class="titl">
+        <center>
+          <h4>WALLET 1 <input class="titlcod" id="codcondor" type="text" readonly></h4>
+          <h3>Recibir CNDR</h3>
+        </center>    
+      </div>
+      <!--QrCode-->
+      <div class="qrcode">
+        <center><img src="images/QRCode.png"/></center>
+      </div>
+      <!--Codigo Condor-->
+      <table class="tablesl" style="margin-top:16px; background-color: #b1b1b1;">
+        <tr>
+          <td class="titlrec">
+            <h4>Wallet 1</h4>
+          </td>
+          <td class="codrec">
+            <input id="codcondor1" type="text" readonly>
+          </td>
+          <td class="btncopiar">
+            <button>COPIAR</button>
+          </td>
+        </tr>
+      </table>
+      
+      <!--Volver-->
+      <div class="btncerrar">
+        <form method="post" action="inicio.html">
+          <center><button type="submit">VOLVER</button></center>
+        </form>
+      </div>
+
+      <div><div class="separador2"></div></div>
+
+      <!--menu inferior-->
+      <div>
+        <table class="menuinferior" width="344px">
+          <tr>
+              <td class="m1" align="center">
+                <a href="inicio.html"><img src="images/cartera.png"/></a>
+              </td>
+              <td class="m2" align="center">
+                <a href="#"><img src="images/menu.png"/></a>
+              </td>
+              <td class="m3" align="center">
+                <a href="intercambio.html"><img src="images/inter.png"/></a>
+              </td>
+              <td class="m4" align="center">
+                <a href="ajustes.html"><img src="images/confi.png"/></a>
+              </td>
+          </tr>
+        <table>
+      </div>
+
+
+
+    </div>
+    <script type="text/javascript" src="assets/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/jquery-3.5.1.slim.min.js"></script>
+    <script type="text/javascript" src="copiar.js"></script>
+    <script type="text/javascript" src="assets/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

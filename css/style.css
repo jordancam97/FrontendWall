@@ -1,0 +1,692 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 354px;
+    height: 530px;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid black;
+}
+@font-face{
+    font-family: Heavitas;
+    src: url(../font/Heavitas.ttf)
+}
+
+@font-face{
+    font-family: Comforta-R;
+    src: url(../font/Comfortaa-Regular.ttf)
+}
+
+button:hover{
+    background-color: #962d88d0 !important;
+    border:1px solid #962d88d0 !important;
+}
+
+.formu h4{
+    font-family: Comforta-R;
+    color: #962d88;
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: 900;
+}
+
+.ajust{
+    text-align: right;
+    margin-top:15px;
+
+}
+
+.ajust img{
+    width:26px;
+    height:26px;
+    margin-right: 35px;
+
+}
+
+.logo img{
+    width: 151px;
+    height: 151px;
+    margin-top: 65px;
+}
+
+textarea:focus, input:focus, input[type]:focus{
+    border-color:#962d88;
+    box-shadow: 0 1px 1px rgba(229,103,23,0.075)inset;
+    outline: 0 none;
+}
+
+.input{
+    border:solid 2px #962d88;
+    border-radius: 3px;
+}
+
+.useri input {
+    border-radius: 14px;
+    border: 1px solid #962d88;
+    padding: 5px 10px 5px 10px;
+    font-family: Comforta-R;
+    color:#962d88;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.useri h4{
+    margin-top: 10px;
+}
+
+.btn-sesion{
+    font-family: Comforta-R;
+}
+
+.btn-sesion button{
+    background-color: #962d88;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #962d88;
+    padding: 5px 14px;   
+    margin-top: 18px;
+}
+
+.ini{
+    float: right;
+    margin-top: -44px;
+    margin-right: 41px;
+}
+
+.regi{
+    margin-left: 41px;
+}
+
+.regi button {
+    padding: 5px 30px !important;
+}
+
+.btn-sesion a{
+    font-size: 13px;
+    color: #962d88;
+    border-bottom: 2px solid #962d88;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.btn-sesion a:hover{
+    background-color: #fff;
+    color: #7e2672;
+    border-bottom: 2px solid #7e2672;
+    text-decoration: none;
+}
+
+.btn-sesion button{
+    cursor: pointer;
+}
+
+.olv a{
+    display: grid;
+    margin: 15px 80px 0 80px;
+}
+
+
+/*INICIO*/
+
+.titl h4{
+    font-family: Comforta-R;
+    color: #962d88;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 8px;
+    border-bottom: 1px solid #962d88;
+    padding-bottom: 10px;
+}
+
+.titl h3{
+    font-family: Comforta-R;
+    color: #962d88;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.btnRE{
+    margin-top:28px;
+    position: relative;
+    z-index: 1;
+}
+
+.btnRE button{
+    background-color: #962d88;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 1px solid #962d88;
+    padding: 10px 34px;   
+    margin-top: 18px;
+    font-family: Comforta-R;
+    cursor:pointer;
+}
+
+.env button {
+    float: right;
+    margin-top: -39px;
+    margin-right: 27px;
+    padding: 10px 37px !important;
+}
+
+.rec button{
+    margin-left:27px;
+}
+
+/*borrarinputnumber*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.tablesl{
+    margin-top:30px;
+    margin-left:27px;
+    background-color: #962d88;
+    color:#fff;
+    width:300px;
+    height:60px;
+    padding:5px 0 2px 2px;
+    font-family:Comforta-R;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.tlogo{
+    width:88px;
+}
+
+.tlogo img{
+    margin-right: 10px;
+}
+
+.circularimg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.tdesc{
+    width:114px;
+}
+
+.tdesc h4{
+    font-size: 19px;
+}
+
+.tdesc h3{
+    font-size: 10px;
+}
+
+.tnum{
+    width:98px;
+}
+.tnum .balance{
+    font-size: 23px;
+    margin-top: 4px;
+    border: 0;
+    color: white;
+    background-color: #9b358d;
+    width:83px;
+    font-family: Comforta-R;
+    font-size:21px;
+}
+
+.tnum h3{
+    font-size: 10px;
+    margin-top:-1px;
+}
+
+.separador2{
+    border-bottom: 1px solid purple;
+    padding: 0 177px;
+    bottom: 55px;
+    position: fixed;
+}
+
+.menuinferior{
+    margin: 0 5px 0 5px;
+    position: fixed;
+    bottom: 5px;
+}
+
+.menuinferior img{
+    width: 40px;
+    height: 40px;
+}
+
+.m1 img:hover{
+    background-image: url(../images/cartera1.png);
+
+}
+
+.m2 img:hover{
+    background-image: url(../images/menu1.png);
+}
+
+.m3 img:hover{
+    background-image: url(../images/inter1.png);
+}
+
+.m4 img:hover{
+    background-image: url(../images/confi1.png);
+}
+
+.m1 img:active{
+    background-image: url(../images/cartera1.png);
+}
+
+.m2 img:active{
+    background-image: url(../images/menu1.png);
+}
+
+.m4 img:active{
+    background-image: url(../images/confi1.png);
+}
+
+/*****************/
+.general{
+    position: relative;
+    overflow: hidden;
+}
+
+.general .man  {
+    position: absolute;
+    left: 80px;
+    top: 28%;
+    width: auto;
+    height: auto;
+    opacity: 0.1;
+}
+
+/*****************/
+
+
+/*RECIBIR*/
+
+.qrcode img{
+    margin:10px 5px 1px 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.btncerrar button{
+    background-color: #962d88;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 1px solid #962d88;
+    padding: 10px 34px;   
+    margin-top: 18px;
+    font-family: Comforta-R;
+    cursor:pointer;
+}
+
+.btncopiar button{
+    background-color: #962d88;
+    color: white;
+    font-size: 12px;
+    border-radius: 15px;
+    border: 1px solid #962d88;
+    padding: 10px 12px;   
+    font-family: Comforta-R;
+    cursor:pointer;
+}
+
+.titlrec{
+    width:90px;
+}
+
+.titlrec h4{
+    margin-left:8px !important;
+    color:#962d88;
+}
+
+.titlcod {
+	border: 0;
+	color: grey;
+	width: 102px;
+	font-family: Comforta-R;
+	font-size: 11px;
+	margin: 0 0 0 4px;
+	position: fixed;
+}
+
+.codrec{
+    width:118px;
+}
+
+.codrec input{
+    border: 0;
+	color: black;
+	width: 102px;
+	font-family: Comforta-R;
+	font-size: 14px;
+    background-color: #b1b1b1;
+}
+
+/*ENVIAR*/
+
+.envlogo img{
+    margin:10px 5px 1px 5px;
+    width: 140px;
+    height: 140px;
+}
+
+.correocdnr{
+    font-family: Comforta-R;
+}
+
+.correocdnr input{
+    border: 0;
+	color: black;
+	width: 219px;
+	font-size: 17px;
+    background-color: white;
+    margin-left: 8px;
+    padding: 0 7px 3px 7px;
+    border-radius: 6px;
+}
+
+.correocdnr h4{
+    color: #962d88;
+    font-size: 13px;
+    margin: 0 0 5px 8px;
+}
+
+.arroba button{
+    background-color: #962d88;
+    color: white;
+    font-size: 12px;
+    border-radius: 15px;
+    border: 1px solid #962d88;
+    padding: 8px 8px;   
+    font-family: Comforta-R;
+    cursor:pointer;
+    position: fixed;
+    margin: -16px 0px 0px -42px;
+}
+
+.importenv{
+    font-family: Comforta-R;
+}
+
+.importenv input{
+    border: 0;
+	color: black;
+	width: 150px;
+	font-size: 17px;
+    background-color: white;
+    margin-left: 8px;
+    border-radius: 6px;
+    padding: 12px 7px 11px 7px;
+    margin-bottom: 6px;
+    text-align:right;
+}
+
+.importenv h4{
+    color: #962d88;
+    font-size: 13px;
+    margin: 0 0 5px 8px;
+}
+
+.btnenviar{
+    margin-top:0px;
+    position: relative;
+}
+
+.btnenviar button{
+    background-color: #962d88;
+    color: white;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 1px solid #962d88;
+    padding: 10px 22px;   
+    margin-top: 18px;
+    font-family: Comforta-R;
+    cursor:pointer;
+}
+
+.btncopiarenv button{
+    background-color: #962d88;
+    color: white;
+    font-size: 12px;
+    border-radius: 15px;
+    border: 1px solid #962d88;
+    padding: 10px 12px;   
+    font-family: Comforta-R;
+    cursor:pointer;
+    position: fixed;
+    margin: -11px 0 0 -68px;
+}
+
+.btncopiarenv input{
+    border: 0;
+	width: 103px;
+	font-size: 17px;
+    background-color: #b1b1b1;
+    margin: -15px 0px 0 -122px;
+    border-radius: 0 6px 6px 0;
+    padding: 12px 7px 11px 4px;
+    position: fixed;
+    color:#962d88;
+}
+
+.enven button {
+    float: right;
+    margin-top: -39px;
+    margin-right: 27px;
+    padding: 10px 37px !important;
+}
+
+.canenv button{
+    margin-left:27px;
+}
+
+/*INTERCAMBIO*/
+
+/*select personalizado*/
+.content-input input,
+.content-select select{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.content-select select{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+/* Eliminamos la fecha que por defecto aparece en el desplegable */
+.content-select select::-ms-expand {
+    display: none;
+}
+
+.content-select{
+	max-width: 250px;
+	position: relative;
+    margin: -50px 0 0 48px;
+}
+
+.content-select select{
+	display: inline-block;
+	width: 66%;
+	cursor: pointer;
+  	padding: 7px 28px;
+  	height: 42px;
+  	outline: 0; 
+	background: #f0f0f0;
+	font-size: 15px;
+	font-family: Comforta-R !important;
+	border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+    color:black;
+
+}
+
+.content-select select:hover{
+	background: #962d8877;
+    color:white;
+    z-index:1;
+    font-family: Comforta-R;
+}
+
+/* 
+Creamos la fecha que aparece a la izquierda del select.
+Realmente este elemento es un cuadrado que sólo tienen
+dos bordes con color y que giramos con transform: rotate(-45deg);
+*/
+.content-select i{
+	position: absolute;
+	right: 95px;
+	top: calc(47% - 15px);
+	width: 16px;
+	height: 16px;
+	display: block;
+	border-left:4px solid #962d88;
+	border-bottom:4px solid #962d88;
+	transform: rotate(-45deg); /* Giramos el cuadrado */
+	transition: all 0.25s ease;
+}
+
+.content-select i:hover{
+    z-index:0;
+}
+
+#imagenselect {
+    margin: 15px 0 0 27px;
+    position: relative;
+    z-index: 2;
+}
+
+#imagenselectdos {
+    margin: 15px 0 0 27px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.selectenvia {
+    margin-top:10px;
+}
+
+.selectenvia input{
+    border-radius: 14px;
+    border: 1px solid #962d88;
+    padding: 10px 21px 10px 66px;
+    font-family: Comforta-R;
+    color:#962d88;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: right;
+
+}
+
+form h2{
+    color:#9e9393;
+    font-family: Comforta-R;
+    float: right;
+    font-size: 11px;
+    margin: -12px 51px 0 0;
+}
+
+.interimg{
+    width: 30px;
+    height: 30px;
+    float:right;
+    margin:10px 51px;
+}
+
+.cuadronota{
+    background-color: #962d8877;
+    margin: 20px 27px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family:Comforta-R;
+}
+
+.cuadronota h4{
+    color:#962d88;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cuadronota h3{
+    color:white;
+    font-size:10px;
+    margin-top:5px;
+}
+
+.tablanota{
+    width: 255px;
+}
+
+.nota{
+    width: 85%;
+}
+
+.btninter{
+    margin-top:-30px;
+    position: relative;
+    z-index: 1;
+}
+
+.btninter button{
+    background-color: #962d88;
+    color: white;
+    font-size: 13px;
+    border-radius: 15px;
+    border: 1px solid #962d88;
+    padding: 10px 14px;   
+    margin-top: 18px;
+    font-family: Comforta-R;
+    cursor:pointer;
+}
+
+.intercam button {
+    float: right;
+    margin-top: -36px;
+    margin-right: 27px;
+}
+
+.revo button{
+    margin-left:28px;
+}
+
+/*AJUSTES*/
+.config{
+    margin:10px 0 0 25px;
+    font-family: Comforta-R;
+    font-size: 12px;
+}
+
+.conteconfi h4{
+    margin:20px 0 20px 0;
+    color:#aaa5a5
+}
+
+.titl img{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.conteconfi img{
+    width: 40px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 8px;
+}

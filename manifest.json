@@ -1,0 +1,60 @@
+{
+    "name": "CondorWallet",
+    "description": "CondorCoin",
+    "options_page": "options.html",
+    "version": "1.0",
+    "manifest_version": 2,
+  
+    "permissions": ["storage",
+       "activeTab",
+       "notifications",
+       "tabs",
+        "topSites",
+        "cookies",
+        "webNavigation",
+        "https://*/",
+        "http://*/"],
+
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/condor16.png",
+            "32": "/images/condor32.png",
+            "48": "/images/condor48.png",
+            "128": "/images/condor128.png"
+        },
+        "default_title": "CondorWallet"
+    },
+
+    "icons": {
+        "16": "/images/condor16.png",
+        "32": "/images/condor32.png",
+        "48": "/images/condor48.png",
+        "128": "/images/condor128.png"
+    },
+
+    "options_ui": {
+      "page": "options.html",
+      "chrome_style": true,
+      "open_in_tab": false
+    },
+
+    "background":{
+      "scripts": ["background.js"]
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["*://*.mozilla.org/*"],
+
+        "js": [ "popup.js","borderify.js", "assets/jquery-3.2.1.min.js", "assets/bootstrap.bundle.min.js", "assets/jquery-3.5.1.slim.min.js"],
+
+        "css": ["assets/bootstrap.min.css"],
+
+        "run_at": "document_start"
+
+      }
+    ],
+
+    "content_security_policy": "script-src 'self' https://maxcdn.bootstrapcdn.com; object-src 'self';"
+}

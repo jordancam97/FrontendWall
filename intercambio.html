@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  
+
+  </head>
+  <body class="general">
+    <!--Titulo-->
+    <div CLASS="titl">
+      <h4 style="margin-left:25px">INTERCAMBIO</h4>   
+    </div>
+
+    <form name="formulario" method="post">
+      <!--Enviar-->
+      <img id="imagenselect" src="images/select/solana.png" />
+      <div class="content-select">
+        <!-- Lista de selección -->
+        <select id="elselect" name="inter">
+          <option value="solana">SOL</option>
+          <option value="bitcoin">BITCOIN</option>
+          <option value="dogecoin">DOGECOIN</option>
+        </select>
+        <i></i>
+      </div>
+      <h2>ENVIAS</h2>
+      <center><div class="selectenvia"><input type="text" placeholder="0"></div></center>
+      <img class="interimg" src="images/inter1.png"/>
+
+      <div style="margin:30px 0"></div>
+      <!--Recibir-->
+      <img id="imagenselectdos" src="images/select/usdc.png" />
+      <div class="content-select">
+        <!-- Lista de selección -->
+        <select id="elselectdos" name="inter" style="margin-top:2px;">
+          <option value="usdc">USDC</option>
+          <option value="bitcoin2">BITCOIN</option>
+          <option value="dogecoin2">DOGECOIN</option>
+        </select>
+        <i></i>
+      </div>
+      <h2>RECIBE</h2>
+      <center><div class="selectenvia"><input type="text" placeholder="0"></div></center>
+
+      <!--Cuadro nota-->
+      <div class="cuadronota">
+        <table class="tablanota">
+          <tr>
+            <td class="nota">
+              <h4>NOTA</h4>
+              <h3>Tolerancia al deslizamiento   <i class="fas fa-question-circle" style="color:white;"></i></h3>
+          <h3>COMISIÓN</h3>
+            </td>
+            <td class="porcnota">
+              <h4>1 %</h4>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="btninter">
+        <div class="revo">
+          <button>REVISAR ORDEN</button>
+        </div>
+        <div class="intercam">
+          <button>INTERCAMBIAR</button>
+        </div>
+      </div>
+  
+    </form>
+    
+    
+
+    <div class="separador2"></div>
+
+
+    <!--menu inferior-->
+    <div>
+      <table class="menuinferior" width="344px">
+        <tr>
+            <td class="m1" align="center">
+              <a href="inicio.html"><img src="images/cartera.png"/></a>
+            </td>
+            <td class="m2" align="center">
+              <a href="#"><img src="images/menu.png"/></a>
+            </td>
+            <td class="m3" align="center">
+              <a href="intercambio.html"><img src="images/inter.png"/></a>
+            </td>
+            <td class="m4" align="center">
+              <a href="ajustes.html"><img src="images/confi.png"/></a>
+            </td>
+        </tr>
+      <table>
+    </div>
+
+
+
+    <script type="text/javascript" src="assets/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/jquery-3.5.1.slim.min.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+    <script type="text/javascript" src="assets/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
